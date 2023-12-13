@@ -1,5 +1,7 @@
 class StringBuilder {
-  constructor(initialValue = " ") {
+#value
+
+  constructor(initialValue = "") {
     this.#value = initialValue;
   }
 
